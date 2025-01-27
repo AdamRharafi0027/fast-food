@@ -1,0 +1,28 @@
+.footer {
+    background: var(--dark);
+    margin-bottom: -15px !important;
+}
+.footer .logo {
+    font-family: var(--ffPac);
+    color: var(--mainColor);
+    text-align: start;
+    padding: 50px 100px;
+}
+.footer .social {
+    width: 700px;
+    margin: auto;
+    gap: 50px;
+}
+.footer .social i {
+    font-size: 2rem;
+    color: var(--mainColor);
+}
+.footer .social a {
+    color: var(--white);
+    margin-left: 10px;
+}
+.footer p {
+    text-align: center;
+    color: var(--white);
+    padding:70px 0 40px 0;
+}

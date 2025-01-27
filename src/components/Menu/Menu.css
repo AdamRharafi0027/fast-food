@@ -1,0 +1,46 @@
+.menu {
+  z-index: 222 !important;
+  position: relative;
+}
+.why > h4 {
+  color: var(--mainColor);
+}
+.why,
+.menu {
+  margin: 0 auto;
+}
+.menu .menu-cards,
+.why .why-cards  {
+  padding-inline: 200px;
+  gap: 80px;
+}
+.menu .menu-cards .m-card .m-card-text,
+.why .why-cards .crd .crd-texts {
+  margin-left: -20px;
+}
+.menu .menu-cards .m-card .m-card-text .items .price {
+  color: var(--mainColor);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.menu .menu-cards .m-card .m-card-text h4,
+.why .why-cards .crd .crd-text h4 {
+  font-size: 0.9rem;
+  margin-left: 4px;
+}
+.menu .menu-cards .m-card,
+.why .why-cards .crd  {
+  transition: all 0.3s ease;
+  padding: 20px 40px;
+  width: 350px;
+  scale: 0.9;
+}
+.menu .menu-cards .m-card:hover,
+.why .why-cards .crd:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.menu .menu-cards .m-card .m-card-img img {
+  width: 200px;
+  margin-bottom: 40px;
+}

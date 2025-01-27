@@ -1,0 +1,26 @@
+/* .why > h4 {
+    color: var(--mainColor);
+}
+.why {
+    margin: 0 auto;
+  }
+  .why .why-cards {
+    padding-inline: 200px;
+    gap: 80px;
+  }
+  .why .why-cards .crd .crd-texts {
+    margin-left: -20px;
+  }
+  .why .why-cards .crd .crd-text h4 {
+    font-size: 0.9rem;
+    margin-left: 4px;
+  }
+  .why .why-cards .crd {
+    transition: all 0.3s ease;
+    padding: 20px 40px;
+    width: 350px;
+  }
+  .why .why-cards .crd:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  } */

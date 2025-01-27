@@ -1,0 +1,38 @@
+.hero {
+    padding-top: 70px;
+    background: var(--dark);
+    height: 95vh;
+    color: var(--white);
+}
+.hero .hero-texts h1 {
+    font-size: 2.5rem;
+    font-family: var(--ffPac);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -90px;
+    width: 500px;
+}
+.hero .hero-texts h1 span {
+    /* font-family: var(--ffPac); */
+    color: var(--mainColor);
+}
+.hero .hero-texts h4 {
+    width: 400px;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.hero .hero-texts .button {
+    margin-top: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.hero .hero-img  {
+    margin-top: -100px;
+}
+.hero svg {
+    position: absolute;
+    rotate: 180deg;
+    top: 60%;
+    z-index: 1 !important;
+}

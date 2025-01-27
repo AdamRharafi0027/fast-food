@@ -1,0 +1,45 @@
+.costumers .crs {
+  margin-top: 0px !important;
+}
+/* Style the previous and next buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; /* Adjust button size */
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
+  border-radius: 50%; /* Make them circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  gap: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--mainColor);
+  margin-inline: -70px;
+}
+
+.carousel-item {
+  transition: opacity 1s ease-in-out; /* Smooth fade effect */
+}
+.costumers .slidImg img {
+  z-index: 14;
+  position: relative;
+  width: 150px !important;
+  margin-bottom: 10px;
+}
+.costumers .cos-card {
+  background: var(--mainColor);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.costumers .cos-card .cos-card-body p {
+  width: 300px;
+}
+

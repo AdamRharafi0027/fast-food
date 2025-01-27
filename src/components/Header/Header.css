@@ -1,0 +1,26 @@
+header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+}
+header .logo {
+    font-family: var(--ffPac);
+    color: var(--mainColor);
+}
+header i {
+    color: var(--mainColor);
+    transform: translateY(-10px);
+}
+header ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white);
+}
+header ul li a:hover {
+    color: var(--mainColor);
+    transition: all .3s;
+}
+header ul {
+    margin-right: 140px;
+}

@@ -1,0 +1,88 @@
+.popular {
+  color: var(--white) !important;
+  padding-bottom: 30px !important;
+}
+.headlineColor {
+  color: var(--mainColor);
+}
+.popular .banner {
+  top: 50px;
+  right: 150px;
+  rotate: 40deg;
+  transform: translate(70px, -80px);
+
+}
+.popular .banner img {
+  width: 300px;
+}
+.popular .slidImg {
+  position: relative;
+}
+.popular .slidImg img {
+  z-index: 14;
+  position: relative;
+  width: 700px !important;
+}
+.popular .slidImg .back-text {
+  font-size: 8rem;
+  position: absolute;
+  z-index: 3;
+  transform: translate(20%, -25%);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.popular .banner span {
+  color: var(--mainColor);
+  font-size: 2rem;
+}
+.popular .crs {
+  margin-top: 0px !important;
+}
+/* Style the previous and next buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; /* Adjust button size */
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
+  border-radius: 50%; /* Make them circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  gap: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--mainColor);
+  margin-inline: -50px;
+}
+
+.popular .items {
+  width: 100%;
+  transform: translateY(-50px);
+  padding-inline: 100px;
+  cursor: pointer;
+}
+.popular .items .order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular .items .order span {
+  font-size: 1.2rem;
+}
+.popular .items .price {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--mainColor);
+}
+
+
+/* Smooth transition for carousel */
+.carousel-item {
+  transition: opacity 1s ease-in-out; /* Smooth fade effect */
+}
+

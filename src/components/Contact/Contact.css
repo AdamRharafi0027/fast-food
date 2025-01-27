@@ -1,0 +1,20 @@
+.contact {
+    padding-inline: 100px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.contact form {
+    width: 700px !important;
+    margin-inline: 70px;
+    margin-top: 70px;
+    text-align: start;
+    background: var(--mainColor);
+    padding: 50px;
+    border-radius: 10px;
+}
+.contact form button {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: #ffd76a;
+}

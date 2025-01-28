@@ -3,24 +3,25 @@
 ## simple project using
 ![BOOTSTRAP](./public/images/bootstrap.png)
 ![REACT](./public/images/react.png)
-### COMPONENTS 
-#### header
+## COMPONENTS 
+## header
 -simple nav bar withe logo and nav links and shopping bag icon
-#### hero
+## hero
 -hero for presentation of the fast food restaurant
-#### menu
+## menu
 -the menu of the restaurant 
-#### popular
+## popular
 -the most popular menu and most sell
-#### why
+## why
 -our services 
-#### costumer
+## costumer
 -what our costumer review 
-#### contact
+## contact
 -simple contact form 
-#### footer
+## footer
 -logo withe social media links and copyright 
 ## developed by ADAM RHARAFI 0027
+<<<<<<< HEAD
 
 # January, 28, 2025 11:21PM
 
@@ -28,3 +29,5 @@
 ## MOBILE VERSION
 ## TABLETS VERSION
 ## DESKTOP VERSION
+=======
+>>>>>>> f8dc67e2a1618ced25351083d7264d829e8c8e47

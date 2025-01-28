@@ -20,8 +20,6 @@
 -simple contact form 
 ## footer
 -logo withe social media links and copyright 
-## developed by ADAM RHARAFI 0027
-<<<<<<< HEAD
 
 # January, 28, 2025 11:21PM
 
@@ -29,5 +27,5 @@
 ## MOBILE VERSION
 ## TABLETS VERSION
 ## DESKTOP VERSION
-=======
->>>>>>> f8dc67e2a1618ced25351083d7264d829e8c8e47
+=========================
+## developed by ADAM RHARAFI 0027

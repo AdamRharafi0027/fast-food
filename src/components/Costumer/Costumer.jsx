@@ -8,7 +8,7 @@ const Costumer = () => {
   return (
     <>
       <section className="costumers d-flex justify-content-center align-items-center flex-column">
-        <HeaderText className="mt-5">What Costumer Say</HeaderText>
+        <HeaderText className="headline mt-5">What Costumer Say</HeaderText>
         <Carousel className="crs mt-5 p-5 " fade>
           <Carousel.Item className="slidImg ">
             <div className="cos-card d-flex justify-content-center align-items-center flex-column">

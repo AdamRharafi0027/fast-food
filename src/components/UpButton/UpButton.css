@@ -1,0 +1,15 @@
+.buttonUp {
+    position: fixed;
+    border-radius: 50%;
+    background: var(--mainColor);
+    color: var(--white);
+    border: none;
+    bottom: 20px;
+    z-index: 99999999;
+    right: 20px;
+    padding: 3px 10px;
+}
+.buttonUp i {
+    font-size: 2rem;
+    cursor: pointer;
+}

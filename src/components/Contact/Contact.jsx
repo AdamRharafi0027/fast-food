@@ -1,10 +1,10 @@
 import "./Contact.css";
 import HeaderText from "../HeaderText/HeaderText";
-const Contact = () => {
+const Contact = ({id}) => {
   return (
     <>
-      <section className="contact">
-        <HeaderText>get in touch</HeaderText>
+      <section id={id} className="contact">
+        <HeaderText className='headline'>get in touch</HeaderText>
         <form className="d-flex justify-content-start  flex-column">
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">

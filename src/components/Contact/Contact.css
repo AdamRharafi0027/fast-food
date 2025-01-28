@@ -1,20 +1,47 @@
 .contact {
-    padding-inline: 100px;
-    padding-bottom: 50px;
-    margin-top: 50px;
+  padding-inline: 100px;
+  padding-bottom: 50px;
+  margin-top: 50px;
 }
 .contact form {
-    width: 700px !important;
-    margin-inline: 70px;
-    margin-top: 70px;
-    text-align: start;
-    background: var(--mainColor);
-    padding: 50px;
-    border-radius: 10px;
+  width: 700px !important;
+  margin-inline: 70px;
+  margin-top: 70px;
+  text-align: start;
+  background: var(--mainColor);
+  padding: 50px;
+  border-radius: 10px;
 }
 .contact form button {
-    width: 200px;
-    border: none;
-    border-radius: 5px;
-    background: #ffd76a;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background: #ffd76a;
+}
+/* ---- RESPONSIVE ----- */
+/* ---- MOBILE ----- */
+@media (max-width: 768px) {
+  .contact .headline {
+    font-size: var(--fszMobile);
+    margin-bottom: 60px;
+  }
+  .contact {
+    padding-inline: 0px;
+  }
+  .contact form {
+    margin-inline: 0px;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+}
+/* ---- TABLETS ----- */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .contact {
+    padding-inline: 0px;
+  }
+  .contact form {
+    margin-inline: 0px;
+    width: 90% !important;
+    margin: 0 auto;
+  }
 }

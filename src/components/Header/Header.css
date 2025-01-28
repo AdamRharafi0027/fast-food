@@ -1,26 +1,180 @@
 header {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
 }
 header .logo {
-    font-family: var(--ffPac);
-    color: var(--mainColor);
+  font-family: var(--ffPac);
+  color: var(--mainColor);
 }
 header i {
-    color: var(--mainColor);
-    transform: translateY(-10px);
+  color: var(--mainColor);
+  transform: translateY(-10px);
 }
-header ul li a {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--white);
+header ul li .link {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--white);
+  cursor: pointer;
 }
-header ul li a:hover {
-    color: var(--mainColor);
-    transition: all .3s;
+header ul li .link:hover {
+  color: var(--mainColor);
+  transition: all 0.3s;
 }
 header ul {
-    margin-right: 140px;
+  margin-right: 140px;
+}
+header .nav-icon {
+  font-size: 2rem;
+  display: none;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+/* ---- RESPONSIVE ----- */
+/* ---- MOBILE ----- */
+@media (max-width: 768px) {
+  header {
+    padding-inline: 20px !important;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+  header nav {
+    position: fixed !important;
+    inset: 0;
+    width: 100%;
+    height: 98vh;
+    background: var(--mainColor);
+    background: black;
+    z-index: 999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(2000px);
+    transition: all .4s;
+  }
+  header nav.active {
+    transform: translateX(0px);
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  header nav ul {
+    background: #000000;
+    z-index: 9999999 !important;
+    width: 100%;
+    height: 100%;
+    padding-block: 80px;
+    z-index: 99999 !important;
+  }
+  header nav ul li .link {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  header .nav-icon {
+    display: flex;
+    margin-top: -10px;
+    transition: all .4s;
+  }
+  header .nav-icon span {
+    background: var(--mainColor);
+    border-radius: 20px;
+    width: 40px;
+    height: 3px;
+    transition: all .4s;
+  }
+  header .nav-icon.active span:nth-child(1) {
+    transform: translate(-3px, 10px) rotate(40deg);
+  }
+  header .nav-icon.active span:nth-child(2) {
+    transform: translate(30px, 0px);
+    opacity: 0;
+  }
+  header .nav-icon.active span:nth-child(3) {
+    transform: translate(-3px, -12px) rotate(-40deg);
+  }
+  header .bag {
+    font-size: 2rem !important;
+    margin-top: 10px;
+  }
+}
+/* ---- TABLETS ----- */
+@media (max-width: 1024px) and (min-width: 769px) {
+  header {
+    padding-inline: 0px !important;
+  }
+  header .logo {
+    font-size: 3rem;
+  }
+  header nav {
+    position: fixed !important;
+    inset: 0;
+    width: 150%;
+    height: 98vh;
+    background: var(--mainColor);
+    background: black;
+    z-index: 999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(2000px);
+    transition: all .4s;
+    margin-left: -180px;
+  }
+  header nav.active {
+    transform: translateX(0px);
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  header nav ul {
+    background: #000000;
+    z-index: 9999999 !important;
+    width: 100%;
+    height: 100%;
+    padding-block: 130px;
+    z-index: 99999 !important;
+  }
+  header nav ul li .link {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  header .nav-icon {
+    display: flex;
+    margin-top: -10px;
+    transition: all .4s;
+  }
+  header .nav-icon span {
+    background: var(--mainColor);
+    border-radius: 20px;
+    width: 60px;
+    height: 5px;
+    transition: all .4s;
+  }
+  header .nav-icon.active span:nth-child(1) {
+    transform: translate(-3px, 13px) rotate(40deg);
+  }
+  header .nav-icon.active span:nth-child(2) {
+    transform: translate(30px, 0px);
+    opacity: 0;
+  }
+  header .nav-icon.active span:nth-child(3) {
+    transform: translate(-3px, -12px) rotate(-40deg);
+  }
+  header .bag {
+    font-size: 2.5rem !important;
+    margin-top: 10px;
+  }
 }

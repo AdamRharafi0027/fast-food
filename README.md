@@ -1,3 +1,4 @@
+# January, 27, 2025 10:29AM
 # FAST FOOD PROJECT V1.0
 ## simple project using
 ![BOOTSTRAP](./public/images/bootstrap.png)
@@ -20,3 +21,10 @@
 #### footer
 -logo withe social media links and copyright 
 ## developed by ADAM RHARAFI 0027
+
+# January, 28, 2025 11:21PM
+
+# FULL RESPONSIVE 
+## MOBILE VERSION
+## TABLETS VERSION
+## DESKTOP VERSION

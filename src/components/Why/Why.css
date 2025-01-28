@@ -1,26 +1,13 @@
-/* .why > h4 {
-    color: var(--mainColor);
-}
-.why {
-    margin: 0 auto;
+/* ---- RESPONSIVE ----- */
+/* ---- MOBILE ----- */
+@media (max-width: 768px) {
+  .why .why-cards .crd img {
+    width: 200px;
   }
   .why .why-cards {
-    padding-inline: 200px;
-    gap: 80px;
+    gap: 0px;
   }
-  .why .why-cards .crd .crd-texts {
-    margin-left: -20px;
+  .why .headline {
+    font-size: var(--fszMobile);
   }
-  .why .why-cards .crd .crd-text h4 {
-    font-size: 0.9rem;
-    margin-left: 4px;
-  }
-  .why .why-cards .crd {
-    transition: all 0.3s ease;
-    padding: 20px 40px;
-    width: 350px;
-  }
-  .why .why-cards .crd:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  } */
+}

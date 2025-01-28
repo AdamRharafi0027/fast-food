@@ -5,11 +5,11 @@ import delivery from '../../../public/images/delivery.png'
 import heart from '../../../public/images/ph_hand-heart.png'
 import price from '../../../public/images/price-bold.png'
 
-const Why = () => {
+const Why = ({id}) => {
   return (
     <>
-        <section className='why mt-5'>
-            <HeaderText>
+        <section id={id} className='why mt-5'>
+            <HeaderText className='headline'>
                 Why Choose Us?
             </HeaderText>
             <h4 className='text-center fs-6'>Why Everyone Loves Our Food</h4>

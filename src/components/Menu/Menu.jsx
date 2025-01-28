@@ -2,11 +2,11 @@ import './Menu.css'
 import burger from '../../../public/images/burger.png';
 import HeaderText from '../HeaderText/HeaderText';
 
-const Menu = () => {
+const Menu = ({id}) => {
   return (
     <>
-        <section className='menu'>
-                <HeaderText>Our Menu</HeaderText>
+        <section id={id} className='menu'>
+                <HeaderText className='headline'>Our Menu</HeaderText>
             <div className="menu-cards flex-wrap d-flex mt-5 justify-content-center align-items-center"> 
                 <div className="m-card">
                     <div className="m-card-img">

@@ -10,7 +10,6 @@
   right: 150px;
   rotate: 40deg;
   transform: translate(70px, -80px);
-
 }
 .popular .banner img {
   width: 300px;
@@ -38,13 +37,12 @@
 .popular .crs {
   margin-top: 0px !important;
 }
-/* Style the previous and next buttons */
-.carousel-control-prev,
-.carousel-control-next {
-  width: 50px; /* Adjust button size */
+.popular .carousel-control-prev,
+.popular .carousel-control-next {
+  width: 50px;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
-  border-radius: 50%; /* Make them circular */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,14 +50,9 @@
   position: absolute;
   top: 50%;
   gap: 30px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
   background-color: var(--mainColor);
   margin-inline: -50px;
 }
-
 .popular .items {
   width: 100%;
   transform: translateY(-50px);
@@ -79,10 +72,62 @@
   font-weight: bold;
   color: var(--mainColor);
 }
-
-
-/* Smooth transition for carousel */
 .carousel-item {
-  transition: opacity 1s ease-in-out; /* Smooth fade effect */
+  transition: opacity 1s ease-in-out;
 }
 
+/* ---- RESPONSIVE ----- */
+/* ---- MOBILE ----- */
+@media (max-width: 768px) {
+  .popular .banner span {
+    font-size: 1rem;
+  }
+  .popular .banner {
+    transform: translate(80px, -90px);
+  }
+  .popular .banner img {
+    width: 160px;
+  }
+  .popular .slidImg img {
+    width: 300px !important;
+  }
+  .popular .slidImg .back-text {
+    font-size: 3rem;
+    transform: translate(30%, -25%);
+  }
+  .popular .carousel-control-prev,
+  .popular .carousel-control-next {
+    margin-inline: 25px !important;
+    top: 30% !important;
+  }
+
+  .popular .items {
+    width: 100%;
+    transform: translateY(-20px);
+    padding-inline: 10px;
+    cursor: pointer;
+  }
+  .popular .items .order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular .items .order span {
+    font-size: 1rem;
+  }
+  .popular .items .order img {
+    width: 200px;
+  }
+  .popular .items .price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--mainColor);
+    margin-right: -20px;
+  }
+}
+/* ---- TABLETS ----- */
+@media (max-width: 1024px) and (min-width: 769px)  {
+  .popular .items {
+    transform: translateY(-10px);
+  }
+}

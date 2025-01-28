@@ -1,10 +1,10 @@
 import "./Hero.css";
 import buttonImg from "../../../public/images/button.png";
 import heroImg from "../../../public/images/hero.png";
-const Hero = () => {
+const Hero = ({ id }) => {
   return (
     <>
-      <section className="hero d-flex justify-content-evenly align-items-center">
+      <section id={id} className="hero d-flex justify-content-evenly align-items-center">
         <div className="hero-texts">
           <h1 className="headline">
             <span>Special Food</span> Every Time For You
@@ -13,7 +13,7 @@ const Hero = () => {
             The best chefs and the best delivery men are at your service. Hot
             delicious food will reach you as soon as possible.
           </h4>
-          <div className="button position-relative d-flex  justify-content-center align-items-center">
+          <div className="button d-flex  justify-content-center align-items-center">
             <img src={buttonImg} alt="button" className="position-absolute" />
             <span>ORDER NOW</span>
           </div>

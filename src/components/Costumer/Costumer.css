@@ -2,8 +2,8 @@
   margin-top: 0px !important;
 }
 /* Style the previous and next buttons */
-.carousel-control-prev,
-.carousel-control-next {
+.costumers .carousel-control-prev,
+.costumers .carousel-control-next {
   width: 50px; /* Adjust button size */
   height: 50px;
   background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
@@ -15,10 +15,6 @@
   position: absolute;
   top: 50%;
   gap: 50px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
   background-color: var(--mainColor);
   margin-inline: -70px;
 }
@@ -42,4 +38,21 @@
 .costumers .cos-card .cos-card-body p {
   width: 300px;
 }
-
+/* ---- RESPONSIVE ----- */
+/* ---- MOBILE ----- */
+@media (max-width: 768px) {
+  .costumers .headline {
+    font-size: var(--fszMobile);
+  }
+  .costumers .cos-card {
+    width: 250px;
+  }
+  .costumers .cos-card .cos-card-body p {
+    width: 200px;
+  }
+  .costumers .carousel-control-prev,
+  .costumers .carousel-control-next{
+    margin-inline: -15px !important;
+    top: 45% !important;
+  }
+}

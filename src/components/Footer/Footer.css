@@ -26,3 +26,28 @@
     color: var(--white);
     padding:70px 0 40px 0;
 }
+/* ---- RESPONSIVE ----- */
+/* ---- MOBILE ----- */
+@media (max-width: 768px) {
+    .footer .logo {
+        font-size: var(--fszMobile);
+        padding: 20px 50px;
+    }
+    .footer .social {
+        width: 300px;
+        gap: 30px;
+        
+    }
+    .footer .social i {
+        font-size: 1rem;
+    }
+    .footer .social a {
+        font-size: 1rem;
+    }
+    .footer p {
+        text-align: center;
+        color: var(--white);
+        font-size: 0.8rem;
+        padding-inline: 10px;
+    }    
+  }
